@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+    margin-top: 200px;
+}
+
+.todo h2 {
+    margin-bottom: 20px;
+}
+
+.todo input {
+    outline: none;
+    padding: 15px;
+    height: 30px;
+    width: 100%;
+}
+
+form {
+    width: 15%;
+}
+
+.span-box {
+
+    margin-top: 10px;
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
