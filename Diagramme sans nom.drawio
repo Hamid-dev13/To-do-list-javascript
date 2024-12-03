@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="qfI28rNw_duHqqMoNUKp">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-1" value="VM 1 : Passerelle (OpenBSD 7.6)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="374" y="480" width="79" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-2" value="Bridge/NAT&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="355" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-3" value="LAN 1&amp;nbsp;&lt;div&gt;192.168.42.0&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="570" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xnGyIrbxnaO3WfvtMM8V-4" target="xnGyIrbxnaO3WfvtMM8V-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-4" value="LAN 2 (Serveur)&lt;div&gt;192.168.42.64&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="730" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-5" value="LAN 3 (Employé)&lt;div&gt;192.168.42.128/26&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="930" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-7" value="LAN 3 (Employé)&lt;div&gt;192.168.42.128/26&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="180" y="940" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xnGyIrbxnaO3WfvtMM8V-8" target="xnGyIrbxnaO3WfvtMM8V-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+              <mxPoint x="200" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-8" value="&lt;div&gt;internet&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="355" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-11" value="LAN 1 (admin)&lt;div&gt;192.168.42.0&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-14" value="LAN 2 (Serveur)&lt;div&gt;192.168.42.64/26&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xnGyIrbxnaO3WfvtMM8V-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1009.5" as="sourcePoint" />
+            <mxPoint x="520" y="1009.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
